@@ -1,14 +1,33 @@
 #clock {
+    position: relative;
+    transform-origin: 50%;
 }
 
 #clock img {
+    flex: content;
+
 }
 
 #hour {
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform-origin: 50%;
+    transform: rotate(90deg);
 }
 
 #minute {
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform-origin: 50%;
 }
 
 #second {
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform-origin: 50%;
+    transition: all 0.05;
+    transition-timing-function: cubic-bezier(0.42, 0, 0, 2.78);
 }
