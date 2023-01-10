@@ -3,6 +3,11 @@
     transform-origin: 50%;
 }
 
+#clock #second #minute #hour {
+    transform: bottom;
+    /* transform: translate(-50%) rotate(calc(--rotation) * 1deg); */
+}
+
 #clock img {
     flex: content;
 
@@ -13,7 +18,7 @@
     top: 0;
     left: 0;
     transform-origin: 50%;
-    transform: rotate(90deg);
+    /* transform: rotate(90deg); */
 }
 
 #minute {
